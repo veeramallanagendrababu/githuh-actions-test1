@@ -8,4 +8,4 @@ jobs:
       - name: print the greeting message
         run: echo "hello"
       - name: print docker username
-        run: echo ${{secrets.DOCKER_USERNAME}}
+        run: echo ${{vars.DOCKER_USERNAME}}
